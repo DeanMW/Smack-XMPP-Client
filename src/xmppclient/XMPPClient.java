@@ -23,8 +23,8 @@ public class XMPPClient {
     
     public void testLogin() {
         System.out.println("login");
-        String userName = "deanmwake";
-        String password = "hackt1v1st";
+        String userName = "user";
+        String password = "123456";
         connectionHandler instance = new connectionHandler();
         System.out.println("Is logged in: " + instance.login(userName, password));
     }
